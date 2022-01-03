@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'ASPNET_Project_Ten' " />
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="css\" />
+    <None Remove="bootstrap" />
+    <None Remove="Twitter.Bootstrap" />
+    <None Remove="Utilities\" />
+    <None Remove="Views\Account\" />
+    <None Remove="Migrations\" />
+    <None Remove="Views\Articles\" />
+    <None Remove="Views\Music\" />
+    <None Remove="Views\Administration\" />
+    <None Remove="Security\" />
+    <None Remove="Views\Portfolio\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="bootstrap" Version="5.1.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Views\Articles\" />
+    <Folder Include="Views\Music\" />
+    <Folder Include="Views\Administration\" />
+    <Folder Include="Security\" />
+    <Folder Include="Views\Portfolio\" />
+  </ItemGroup>
+</Project>

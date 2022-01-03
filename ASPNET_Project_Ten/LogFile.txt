@@ -1,0 +1,248 @@
+12/20/2021 13:20:17 Accessing Login Page
+12/20/2021 13:26:41 Logging out
+12/20/2021 13:26:45 Accessing Login Page
+12/20/2021 13:41:25 Accessing Register Page
+12/20/2021 13:41:44Generated Email Confirmation Link for user danieljbae@baespeaks.com: 
+12/20/2021 14:10:27 Logging out
+12/20/2021 14:10:29 Accessing Login Page
+12/20/2021 14:10:50 Logging out
+12/20/2021 14:10:52 Accessing Register Page
+12/20/2021 14:11:08Generated Email Confirmation Link for user DanielJBae@baespeaks.com: https://localhost:5001/Account/ConfirmEmail?userId=c9c21441-9813-415a-89d4-1e1589c288cc&token=CfDJ8AhGcU7uqydNrPVKTY54GD3sRcIZ08BQWM4OQZ4G5NLnNZ7JkzQc%2Bi1ClRShGPi820yMld0d6sf46aSVmU7zq2qjhg0ESTfNx4jRLPse4lAMZ6Om2W%2Fy225IcwO5xffaCvGQYNWXTFLt6NUg5QOTIVLl0P8IxbAm%2F4SGBuu40KbIwS9Z9ucwZVvBe%2FwxlySl%2F0oquwxQCy%2FynNWXkt9rNJ4QjqJL11E4v2dcHYfw%2BKk8l16I%2FwqKITtmRlHZ39Bs9w%3D%3D
+12/20/2021 14:13:46 Logging out
+12/20/2021 14:13:48 Accessing Login Page
+12/20/2021 14:15:35 Accessing Register Page
+12/20/2021 14:16:11Generated Email Confirmation Link for user hello@baespeaks.com: https://localhost:5001/Account/ConfirmEmail?userId=2f6c52ce-e474-436b-8e47-8c401ac175f3&token=CfDJ8AhGcU7uqydNrPVKTY54GD0EVv2uePtq6As4BJOoalJHZq%2FM%2BSNvieWp6j%2F6HSkTaotJ8iNFtsBvxYBIntKveL%2FBtpobYT3BBGcDIILqJwPPE0BQot3yCJ1AxHCs0vl5S00PZF4UERX1jtygNu1yYZwE%2BP9IZeEa6sNKqmNWYEVMSYv7h400u%2FHahehFx%2B6JnYw3AUJ%2BwWvaFb9S7Pow6jvTRq%2Brh2CUx8nejDJy3vV9RAxHcnHgQeKYKHBE4ibrCA%3D%3D
+12/20/2021 14:21:03 Logging out
+12/20/2021 14:21:05 Accessing Login Page
+12/20/2021 14:21:07 Accessing Register Page
+12/20/2021 14:21:36Generated Email Confirmation Link for user helloagain@baespeaks.com: https://localhost:5001/Account/ConfirmEmail?userId=23b50e2e-d0fb-4ea9-953d-43f2ead2ef5d&token=CfDJ8AhGcU7uqydNrPVKTY54GD3NN2IdCpDTcp%2F8wEIKnFxA0rbp%2Bl6pow8ScsueYApT6RrCTnDappKHHY61pNbc0llSBORlfensH39NWSzqnbdRXuTlbUG4fQWvGPptiicOGiYp7PR0vwQlVLSU5qLNkLfbjIxyqshHJ7oVVxeg%2FkOtGEi2eay4F7%2BdoK6sdNtigVfJtgiRCWkGQ6x%2B9Jpm5DcIjokHi%2F7nr95F0j4NSXb1hLJir9KSC48RnmnnsFYseg%3D%3D
+12/20/2021 14:22:08 Logging out
+12/20/2021 14:22:09 Accessing Login Page
+12/20/2021 15:00:36Generated Email Confirmation Link for user daniel@baespeaks.com: https://localhost:5001/Account/ConfirmEmail?userId=3505edad-6e21-473d-8cc1-167646c76a77&token=CfDJ8AhGcU7uqydNrPVKTY54GD0SvE%2BvHVRJAuJu%2Bn%2B0sgCP2%2BjCGD5sRzXphcmhJpRQyeB6u3jv0lL5%2FMkoexYB63IOBCh%2F5Opp%2BxnviRe%2FYWw7oYrJEFlnOXeww%2F%2FgW6dIwZp0dz5cIWgc39JA%2B3%2B0mBSRB34GxTfI6Ngqoo47pkH4sVxM%2FoZuOi9l6%2FPdTwx06y43UUzCBNWUtdHoKjbkFDP9bbbI3oJ8xpQ7It7dgbeI8EKbm%2FfcHg8eaSPJ3L1gFA%3D%3D
+12/20/2021 15:02:19Generated Email Confirmation Link for user daniel@baespeaks.com: https://localhost:5001/Account/ConfirmEmail?userId=3505edad-6e21-473d-8cc1-167646c76a77&token=CfDJ8AhGcU7uqydNrPVKTY54GD2WN80z4JbJPSvuAGP%2FKNadFCg1bdqbGq1kTZ3a1z4Na7ODN7YklGnG3EWuz7vZwUX2wcTXuzFoSS0oohKITv3Xg6yw7QwYIjb%2FDS%2BHhCXyc4WUvqpzJ9VUEEho%2FBhMPfMMDs5YyH%2BQ1QC3EHWIxjniHdkgSZMIGAxSD5T%2BBHeks1oxkr5FGUCu7nVUvOkHkzm1d%2F8QsFKpaqD8QQ%2BiQq99ek0JwXTrB0enpRCiDxBUrA%3D%3D
+12/20/2021 15:10:29 Logging out
+12/20/2021 15:10:31 Accessing Login Page
+12/20/2021 15:10:37 Accessing Login Page
+12/20/2021 15:15:41 Accessing Login Page
+12/20/2021 15:16:11 Accessing Login Page
+12/20/2021 15:26:10 Accessing Login Page
+12/20/2021 15:26:18 the password reset link for daniel@baespeaks.com is 
+12/20/2021 15:41:31 Accessing Login Page
+12/20/2021 15:41:36 the password reset link for daniel@baespeaks.com is https://localhost:5001/Account/ResetPassword?email=daniel@baespeaks.com&token=CfDJ8AhGcU7uqydNrPVKTY54GD1AP5XlffnB6A2iXTzsSNKq%2BgEVTbfVydJcnU%2FS2wBvfSLiGEC6VHRK%2FG7wf9nsqZ2hFSaSHzjXCsCxOEKoVqgg02bpnw7PIFGmr%2FdQNDbDJ08jpEWrUtbSstaB7OvhzSsffesFL9BJgsNbMZ2Eq5%2BQEn7gzXwJ5dLI9K%2BJcBfk90vRjciK0W4KJla21SxL2lnc6C%2FHZ%2FuPcgOzWrxYYduT
+12/20/2021 15:47:19 Accessing Login Page
+12/20/2021 15:47:24 the password reset link for daniel@baespeaks.com is https://localhost:5001/Account/ResetPassword?email=daniel@baespeaks.com&token=CfDJ8AhGcU7uqydNrPVKTY54GD30yuNGNIVt%2B%2Blv1WYiwiuQryvKvwhGn6uJsOA8%2FclVOrDgRPUUcbYJE979AxubIzv%2B5ozqtvEiVYdoL6IDrOIt7mt6a7FU2J7RoAplhnAiYu%2BAJpVwwtyyOSRZFN17e9DHEX1vUJZxNxmfLih1KpcIoY8a7b5I1MvMLm9k3jHfyASC0%2FmDxLA0Ls2%2Bm4Xbq%2Fz%2BNcNhV6HVmLj9ago4QYq1
+12/20/2021 15:48:32 Accessing Login Page
+12/20/2021 15:48:35 Logged in, redirecting
+12/20/2021 15:50:16 Logging out
+12/20/2021 15:50:18 Accessing Login Page
+12/20/2021 15:50:22 Accessing Login Page
+12/20/2021 15:52:46 Accessing Login Page
+12/20/2021 15:52:57 the password reset link for daniel@baespeaks.com is https://localhost:5001/Account/ResetPassword?email=daniel@baespeaks.com&token=CfDJ8AhGcU7uqydNrPVKTY54GD0%2F9Jf%2F4nFp0TcyGiVn9hIXYLOB%2FJMrqjonZolc0Jsu9vi45Kc%2BlHWWZR4yWLR3OjyTNxTx37tklfzOq3ASYc4lBUJm9v8t5NMWoRog8g%2Fslf7RAD6L3iWEHm8aBFCcHJRko1XPyHU37MaKJ9FvLTdDwfkPargaJWN9xB%2BUilRitc1eCNAwyz26vKuCSVAwcV9UT6ILAx0CG%2FvIM3o1dKBZ
+12/20/2021 15:53:43 Accessing Login Page
+12/20/2021 16:04:55 Logging out
+12/20/2021 16:05:18 Accessing Login Page
+12/20/2021 16:05:44 Generated Email Confirmation Link for user danielbae2@baespeaks.com: https://localhost:5001/Account/ConfirmEmail?userId=356f53f2-99ab-4b62-b8ed-5fe70c60e1e3&token=CfDJ8AhGcU7uqydNrPVKTY54GD3a5Y4%2FjJpXBPrH9jTXryHbvJ0ulEE%2FgOIM%2BExXhBzAf%2BtIQn4NEroq1OSea8qh5CbjCU%2Bw5U%2Frq5RAGHm%2FR29aVe3BL30nT4NkQbV31ggoopFBYuNslscNK2vIqvv5vCjz6QXIzaV0kAv0EMjnTX5lOLRsAKU4H9N33aWYL36iV0MVeXnfgeYumEch9jJe7622sOYPHBZsiCsm4jNK%2Fy5c5N3qeWyhv2PBMuk57FBjXg%3D%3D
+12/20/2021 16:18:09 Logging out
+12/20/2021 16:18:10 Accessing Login Page
+12/20/2021 16:34:23 Accessing Login Page
+12/21/2021 13:55:22 Logging out
+12/21/2021 13:55:24 Accessing Login Page
+12/21/2021 13:56:26 Logging out
+12/21/2021 13:56:27 Accessing Login Page
+12/21/2021 14:19:56 Accessing ManageUserClaims Page for daniel@baespeaks.com
+12/21/2021 14:19:58 Posting ManageUserClaims changes for daniel@baespeaks.com
+12/21/2021 14:20:06 Accessing ManageUserClaims Page for DanielJBae@baespeaks.com
+12/21/2021 14:20:09 Posting ManageUserClaims changes for DanielJBae@baespeaks.com
+12/21/2021 14:39:30 Accessing ManageUserClaims Page for DanielJBae@baespeaks.com
+12/21/2021 14:39:33 Posting ManageUserClaims changes for DanielJBae@baespeaks.com
+12/21/2021 14:39:36 Logging out
+12/21/2021 14:39:37 Accessing Login Page
+12/21/2021 14:39:44 Accessing Login Page
+12/21/2021 14:43:28 Logging out
+12/21/2021 14:43:29 Accessing Login Page
+12/21/2021 14:46:25 Logging out
+12/21/2021 14:46:26 Accessing Login Page
+12/21/2021 14:46:43 Accessing ManageUserClaims Page for DanielJBae@baespeaks.com
+12/21/2021 14:46:46 Posting ManageUserClaims changes for DanielJBae@baespeaks.com
+12/21/2021 14:46:47 Logging out
+12/21/2021 14:46:48 Accessing Login Page
+12/21/2021 14:47:02 Logging out
+12/21/2021 14:47:04 Accessing Login Page
+12/21/2021 14:47:13 Logging out
+12/21/2021 14:47:15 Accessing Login Page
+12/21/2021 14:56:13 Accessing Login Page
+12/21/2021 14:56:24 Accessing ManageUserClaims Page for hello@baespeaks.com
+12/21/2021 14:56:28 Posting ManageUserClaims changes for hello@baespeaks.com
+12/21/2021 14:56:30 Logging out
+12/21/2021 14:56:31 Accessing Login Page
+12/21/2021 14:59:51 Accessing ManageUserClaims Page for hello@baespeaks.com
+12/21/2021 14:59:53 Posting ManageUserClaims changes for hello@baespeaks.com
+12/21/2021 14:59:55 Logging out
+12/21/2021 14:59:56 Accessing Login Page
+12/21/2021 15:00:14 Logging out
+12/21/2021 15:00:15 Accessing Login Page
+12/21/2021 15:00:22 Logging out
+12/21/2021 15:00:23 Accessing Login Page
+12/21/2021 15:00:32 Accessing ManageUserClaims Page for helloagain@baespeaks.com
+12/21/2021 15:00:35 Posting ManageUserClaims changes for helloagain@baespeaks.com
+12/21/2021 15:00:37 Logging out
+12/21/2021 15:00:38 Accessing Login Page
+12/21/2021 15:14:16 Logging out
+12/21/2021 15:15:51 Accessing Login Page
+12/21/2021 15:19:37 Logging out
+12/21/2021 15:19:38 Accessing Login Page
+12/21/2021 15:20:10 Logging out
+12/21/2021 15:20:11 Accessing Login Page
+12/21/2021 15:21:33 Accessing Login Page
+12/21/2021 15:21:43 Accessing Login Page
+12/21/2021 15:21:50 Accessing Login Page
+12/21/2021 15:23:36 Logging out
+12/21/2021 15:23:37 Accessing Login Page
+12/21/2021 15:24:26 Accessing Login Page
+12/21/2021 15:24:34 Accessing Login Page
+12/21/2021 15:25:20 Logging out
+12/21/2021 15:25:21 Accessing Login Page
+12/21/2021 15:25:34 Accessing ManageUserClaims Page for helloagain@baespeaks.com
+12/21/2021 15:25:36 Posting ManageUserClaims changes for helloagain@baespeaks.com
+12/21/2021 15:25:45 Logging out
+12/21/2021 15:25:48 Accessing Login Page
+12/21/2021 15:25:54 Accessing Register Page
+12/21/2021 15:26:08Generated Email Confirmation Link for user hello3@baespeaks.com: https://localhost:5001/Account/ConfirmEmail?userId=51c46498-49ba-4d59-bd9e-dd66bebeefeb&token=CfDJ8AhGcU7uqydNrPVKTY54GD0rYK1tgyCnyuW3lJcIs4OP1nYXA3lm6kEUh3dervn0kA%2Bxtfdgx%2BO3%2BErGozit3I48YNzwc923ZwxQSaaDz0vNkGKMKnin403chLoddTFk5zpJfnu4R64G8mNpge%2BBzv2CecT%2FkeJ%2BGBnglF1gceqXVGJ48%2B3%2Bww65n%2Fu7e9Blkx%2F6ebYVjJSsSjrcB1UL%2FKpEQOigmJldWy6pHpnmH%2BD9w2DZfao1zKqJQw9fXKwA8Q%3D%3D
+12/21/2021 15:27:51 Logging out
+12/21/2021 15:27:53 Accessing Login Page
+12/21/2021 15:30:16 Logging out
+12/21/2021 15:30:17 Accessing Login Page
+12/21/2021 15:40:31 Accessing ManageUserClaims Page for hello@baespeaks.com
+12/21/2021 15:40:35 Posting ManageUserClaims changes for hello@baespeaks.com
+12/21/2021 15:40:35 hello@baespeaks.com has claim Create Role as false
+12/21/2021 15:40:35 hello@baespeaks.com has claim Edit Role as false
+12/21/2021 15:40:35 hello@baespeaks.com has claim Delete Role as false
+12/21/2021 15:40:35 hello@baespeaks.com has claim Manager Claim as true
+12/21/2021 15:40:35 hello@baespeaks.com has claim Administrative Claim as false
+12/21/2021 15:40:35 hello@baespeaks.com has claim Executive Claim as true
+12/21/2021 15:49:44 Logging out
+12/21/2021 15:49:44 Accessing Login Page
+12/21/2021 15:49:55 Accessing ManageUserClaims Page for hello@baespeaks.com
+12/21/2021 15:49:58 Posting ManageUserClaims changes for hello@baespeaks.com
+12/21/2021 15:49:58 hello@baespeaks.com has claim Create Role as false
+12/21/2021 15:49:58 hello@baespeaks.com has claim Edit Role as false
+12/21/2021 15:49:58 hello@baespeaks.com has claim Delete Role as false
+12/21/2021 15:49:58 hello@baespeaks.com has claim Manager Claim as false
+12/21/2021 15:49:58 hello@baespeaks.com has claim Administrative Claim as false
+12/21/2021 15:49:58 hello@baespeaks.com has claim Executive Claim as false
+12/21/2021 15:50:00 Logging out
+12/21/2021 15:50:01 Accessing Login Page
+12/21/2021 15:55:27 Logging out
+12/21/2021 15:55:28 Accessing Login Page
+12/21/2021 15:56:02 Logging out
+12/21/2021 15:56:04 Accessing Login Page
+12/21/2021 15:56:10 Logging out
+12/21/2021 15:56:11 Accessing Login Page
+12/21/2021 15:56:21 Logging out
+12/21/2021 16:00:43 Accessing Login Page
+12/21/2021 16:00:50 Logging out
+12/21/2021 16:00:51 Accessing Login Page
+12/21/2021 16:00:57 Logging out
+12/21/2021 16:01:24 Logging out
+12/21/2021 16:01:29 Accessing Login Page
+12/21/2021 16:49:04 Accessing ManageUserClaims Page for helloagain@baespeaks.com
+12/21/2021 16:49:08 Posting ManageUserClaims changes for helloagain@baespeaks.com
+12/21/2021 16:49:08 helloagain@baespeaks.com has claim Create Role as false
+12/21/2021 16:49:08 helloagain@baespeaks.com has claim Edit Role as false
+12/21/2021 16:49:08 helloagain@baespeaks.com has claim Delete Role as false
+12/21/2021 16:49:08 helloagain@baespeaks.com has claim Manager Claim as true
+12/21/2021 16:49:08 helloagain@baespeaks.com has claim Administrative Claim as true
+12/21/2021 16:49:08 helloagain@baespeaks.com has claim Executive Claim as true
+12/21/2021 16:52:02 Logging out
+12/21/2021 16:52:05 Accessing Login Page
+12/21/2021 16:52:09 Accessing Register Page
+12/21/2021 16:52:28 Generated Email Confirmation Link for user hello2@baespeaks.com: https://localhost:5001/Account/ConfirmEmail?userId=c40d336d-aa88-43cb-b136-72b17ac1069f&token=CfDJ8AhGcU7uqydNrPVKTY54GD3RbMfsxiFb2zpOak7KUkcaZ%2FzNCJB5x%2BMqOAWxD8CMFoe1WMGJZ3f5a%2F1rc2FhiXBpgJqppB9yb5TXkx6NUvGbVQqyrdSvCv78Osq2XD6tf0AD%2BBrCrFmN3MUSYgFrE%2Fheus1DqAdQFI%2BxLm02mD7IKMPs4z2OOAkcpoYrVIj80wB4%2FzI%2BuT9XhrNwZe96RUe3WSP4%2FSOq9qmJKcl00FR4T5HGPm42jf3vXTr7YEQfzA%3D%3D
+12/21/2021 16:52:31 Logging out
+12/21/2021 16:52:33 Accessing Login Page
+12/21/2021 16:53:07 Accessing ManageUserClaims Page for hello2@baespeaks.com
+12/21/2021 16:53:11 Posting ManageUserClaims changes for hello2@baespeaks.com
+12/21/2021 16:53:11 hello2@baespeaks.com has claim Create Role as false
+12/21/2021 16:53:11 hello2@baespeaks.com has claim Edit Role as false
+12/21/2021 16:53:11 hello2@baespeaks.com has claim Delete Role as false
+12/21/2021 16:53:11 hello2@baespeaks.com has claim Manager Claim as true
+12/21/2021 16:53:11 hello2@baespeaks.com has claim Administrative Claim as false
+12/21/2021 16:53:11 hello2@baespeaks.com has claim Executive Claim as false
+12/21/2021 16:53:14 Accessing ManageUserClaims Page for hello2@baespeaks.com
+12/21/2021 16:53:17 Posting ManageUserClaims changes for hello2@baespeaks.com
+12/21/2021 16:53:17 hello2@baespeaks.com has claim Create Role as false
+12/21/2021 16:53:17 hello2@baespeaks.com has claim Edit Role as false
+12/21/2021 16:53:17 hello2@baespeaks.com has claim Delete Role as false
+12/21/2021 16:53:17 hello2@baespeaks.com has claim Manager Claim as false
+12/21/2021 16:53:17 hello2@baespeaks.com has claim Administrative Claim as false
+12/21/2021 16:53:17 hello2@baespeaks.com has claim Executive Claim as false
+12/21/2021 17:03:21 Accessing ManageUserClaims Page for hello2@baespeaks.com
+12/21/2021 17:03:25 Posting ManageUserClaims changes for hello2@baespeaks.com
+12/21/2021 17:03:25 hello2@baespeaks.com has claim Create Role as false
+12/21/2021 17:03:25 hello2@baespeaks.com has claim Edit Role as false
+12/21/2021 17:03:25 hello2@baespeaks.com has claim Delete Role as false
+12/21/2021 17:03:25 hello2@baespeaks.com has claim Manager Claim as true
+12/21/2021 17:03:25 hello2@baespeaks.com has claim Administrative Claim as false
+12/21/2021 17:03:25 hello2@baespeaks.com has claim Executive Claim as false
+12/21/2021 17:03:32 Logging out
+12/21/2021 17:03:33 Accessing Login Page
+12/21/2021 17:03:43 Logging out
+12/21/2021 17:03:45 Accessing Login Page
+12/21/2021 17:04:46 Logging out
+12/21/2021 17:04:52 Accessing Login Page
+12/21/2021 17:05:57 Logging out
+12/21/2021 17:05:59 Accessing Login Page
+12/21/2021 17:06:09 Logging out
+12/21/2021 17:06:10 Accessing Login Page
+12/21/2021 17:06:19 Accessing ManageUserClaims Page for hello@baespeaks.com
+12/21/2021 17:06:22 Posting ManageUserClaims changes for hello@baespeaks.com
+12/21/2021 17:06:22 hello@baespeaks.com has claim Create Role as false
+12/21/2021 17:06:22 hello@baespeaks.com has claim Edit Role as false
+12/21/2021 17:06:22 hello@baespeaks.com has claim Delete Role as false
+12/21/2021 17:06:22 hello@baespeaks.com has claim Manager Claim as true
+12/21/2021 17:06:22 hello@baespeaks.com has claim Administrative Claim as false
+12/21/2021 17:06:22 hello@baespeaks.com has claim Executive Claim as false
+12/21/2021 17:06:24 Logging out
+12/21/2021 17:06:25 Accessing Login Page
+12/21/2021 17:06:33 Logging out
+12/21/2021 17:06:36 Accessing Login Page
+12/21/2021 17:06:46 Accessing ManageUserClaims Page for hello@baespeaks.com
+12/21/2021 17:06:49 Posting ManageUserClaims changes for hello@baespeaks.com
+12/21/2021 17:06:49 hello@baespeaks.com has claim Create Role as false
+12/21/2021 17:06:49 hello@baespeaks.com has claim Edit Role as false
+12/21/2021 17:06:49 hello@baespeaks.com has claim Delete Role as false
+12/21/2021 17:06:49 hello@baespeaks.com has claim Manager Claim as true
+12/21/2021 17:06:49 hello@baespeaks.com has claim Administrative Claim as true
+12/21/2021 17:06:49 hello@baespeaks.com has claim Executive Claim as true
+12/21/2021 17:06:50 Logging out
+12/21/2021 17:06:52 Accessing Login Page
+12/21/2021 17:06:59 Logging out
+12/21/2021 17:07:00 Accessing Login Page
+12/21/2021 17:07:10 Accessing ManageUserClaims Page for hello@baespeaks.com
+12/21/2021 17:07:13 Posting ManageUserClaims changes for hello@baespeaks.com
+12/21/2021 17:07:13 hello@baespeaks.com has claim Create Role as false
+12/21/2021 17:07:13 hello@baespeaks.com has claim Edit Role as false
+12/21/2021 17:07:13 hello@baespeaks.com has claim Delete Role as false
+12/21/2021 17:07:13 hello@baespeaks.com has claim Manager Claim as false
+12/21/2021 17:07:13 hello@baespeaks.com has claim Administrative Claim as false
+12/21/2021 17:07:13 hello@baespeaks.com has claim Executive Claim as false
+12/21/2021 17:07:15 Logging out
+12/21/2021 17:07:16 Accessing Login Page
+12/21/2021 17:22:09 Logging out
+12/21/2021 17:23:04 Accessing Login Page
+12/21/2021 17:24:59 Accessing ManageUserClaims Page for hello@baespeaks.com
+12/22/2021 13:49:11 Accessing Login Page
+12/22/2021 15:02:56 Accessing Login Page
+12/22/2021 15:33:50 Accessing Login Page
+12/22/2021 15:33:53 Logged in, redirecting
+12/22/2021 15:33:57 Logged in, redirecting
+12/22/2021 15:34:04 the password reset link for daniel@baespeaks.com is https://localhost:5001/Account/ResetPassword?email=daniel@baespeaks.com&token=CfDJ8AhGcU7uqydNrPVKTY54GD1MyORAJQSIbpbG12TGUa2v0rAk7FyjcWHQA5t%2F%2BkVy%2F%2FMEABnvBtghogG6yFfTrbYmU1dPdDWpY46gRUeTwhQBckKGt5TPYtqAurA1LrIrhWKRn%2B14guU5Qs63NbhROMotCDXjfBErPipHcVJ3kovlcm4hfe%2FxEsn55%2Bnc6MSpFTq%2FV5%2BTvFOrRfVQ0lu3d1KX6dh5CXsWkVGN5KZOd3Z0
+12/22/2021 15:34:27 Accessing Login Page
+12/22/2021 15:42:22 Logging out
+12/22/2021 16:03:32 Accessing Login Page
+12/22/2021 21:23:37 Accessing Login Page
+12/23/2021 09:26:04 Logging out
+12/23/2021 09:26:06 Accessing Login Page
+12/23/2021 09:26:51 Accessing Register Page
+12/23/2021 09:27:07 Generated Email Confirmation Link for user hello6@baespeaks.com: https://localhost:5001/Account/ConfirmEmail?userId=6aeb9885-d712-464f-b9cb-e05d8d0aa6be&token=CfDJ8AhGcU7uqydNrPVKTY54GD18YtbaTQ3gvRLz9aFJftcywRlvxSX0%2BjFdQCTiX5fW6xnrQxwb5BhCsIsgb4Ei%2BxXL7SsjGqj72hPpg4ecgIY2IJLkRzmpazP9hPM%2BgdrWmTD16qgfkyulRNI%2F8UJw2KpHFq%2FAvyUXiZY1bSrP3lw9F97hMgcSVzSR9LZZYJkYtJCMHYhq346s5LzONQIvHzJQ8D0Albh4nLeTbNNe71fXWdEJFaAZH4ImDnZIGMRVAg%3D%3D
+12/29/2021 09:10:43 Accessing Login Page
+01/03/2022 10:11:35 Accessing Login Page
