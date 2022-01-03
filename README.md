@@ -8,4 +8,4 @@ A website I created with ASP.NET Core using the content from my blog baespeaks.c
 - The following NuGet packages are used: bootstrap 5.1.2, Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.0, Microsoft.EntityFrameworkCore 6.0.0, Microsoft.EntityFrameworkCore.Design 6.0.0, Microsoft.EntityFrameworkCore.Sqlite 6.0.0, Microsoft.EntityFrameworkCore.Tools 6.0.0
 - "ASPNETCORE_ENVIRONMENT" is set to "Production"
 - Within the site there is a Portfolio section which has a handful of console applications made with C#, which can also be found at baespeaks.com/portfolio
-- The name of the project is ASPNET_Project_Eleven though the folder name is ASPNET_Project_Ten. The code runs and renaming the folder may cause it to not work
+- The name of the project is ASPNET_Project_Eleven though the folder name is ASPNET_Project_Ten. The code is executable though renaming the folder may cause it to not work
