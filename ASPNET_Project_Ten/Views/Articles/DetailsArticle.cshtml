@@ -1,0 +1,28 @@
+﻿@model ArticleDetailsViewModel
+@{
+    ViewBag.Title = Model.Article.Title;
+}
+
+<div class="carousel-item active">
+    <div class="row">
+        <div class="col-sm-6">
+            <br />
+            <h4>@Model.Article.Title</h4>
+            <!--
+                <br />
+                <h6>Rank: @Model.Article.Rank</h6>
+
+                <br />
+                <h6>Id: @Model.Article.Id</h6>
+                -->
+            <br />
+            <p style="white-space: pre-wrap;">@Model.Article.ArticleBody</p>
+            <br />
+            @{
+                DateTime date = new DateTime(Model.Article.Year, (int)Model.Article.Month, Model.Article.Day);
+                string DateCreated = date.ToString("MMMM dd");
+            }
+            <p>Date Created: @DateCreated</p>
+        </div>
+    </div>
+</div>

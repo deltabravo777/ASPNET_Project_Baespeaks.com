@@ -1,0 +1,38 @@
+﻿@using System.ComponentModel.DataAnnotations;
+@model IEnumerable<Article>
+
+@{
+    var ordered = Model.OrderByDescending(c => c.Rank);
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var article in ordered)
+        {
+            string formatted = article.Category.GetAttribute<DisplayAttribute>().Name;
+
+            string photoPath = "~/images/" + (article.PhotoPath ?? "");
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12" style="padding:10px">
+                <div class="card border-0" style="        height: 200px;
+                                    background: url('@Url.Content(photoPath)');
+                                    background-repeat: no-repeat;
+                                    -webkit-background-size: cover;
+                                    -moz-background-size: cover;
+                                    -o-background-size: cover;
+                                    background-size: cover;
+                                    background-position: center;"
+                            >
+                    <div class="card-body">
+                        <br />
+                        <a class="card-title d-flex justify-content-center text-center"
+                           asp-controller="Articles" asp-action="DetailsArticle" asp-route-id="@article.EncryptedId">
+                            <h4 class="outlinedText">@article.Title</h4>
+                        </a>
+                        <p class="text-secondary d-flex justify-content-center outlinedText" style="margin-bottom:0.5rem !important">---</p>
+                        <p class="text-secondary d-flex justify-content-center outlinedText" style="margin-bottom:0.5rem !important">@formatted</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

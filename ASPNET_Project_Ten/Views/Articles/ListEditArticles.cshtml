@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Article>
+@{
+    var ordered = Model.OrderByDescending(p => p.Rank);
+}
+
+
+<h5>List of Articles Under Development</h5>
+<div class="container">
+    <div class="d-grid justify-content-between">
+        <div class="card-group">
+            @foreach (var article in ordered)
+            {
+                var photoPath = "~/images/" + (article.PhotoPath ?? "noimage.jpg");
+                <div class="card m-3" style="min-width: 18rem; max-width:30.5%;">
+                    <div class="card-header">
+                        <h3>@article.Title</h3>
+                    </div>
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <img class="card-img-top imageThumbnail" src=@photoPath asp-append-version="true" />
+                        <div class="card-footer text-center align-baseline">
+                            <a asp-controller="Articles" asp-action="DetailsArticle" asp-route-id="@article.EncryptedId"
+                               class="btn btn-outline-primary m-1">View</a>
+                            <a asp-action="EditArticle" asp-controller="Articles" asp-route-id="@article.EncryptedId"
+                               class="btn btn-outline-primary m-1">Edit</a>
+                            <!--<a href="#"
+                                class="btn btn-danger m-1">Delete</a>-->
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
