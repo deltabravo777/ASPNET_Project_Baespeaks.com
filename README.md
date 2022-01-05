@@ -2,6 +2,7 @@
 A website I created with ASP.NET Core using the content from my blog baespeaks.com
 
 - Target Framework is NET 6
+- The first time you attempt to run the program there might be an error saying that a file cannot be found under the /obj folder. If you try running it again, the issue does not persist
 - One user login is daniel@baespeaks.com and the password is "asdfasdf". This login has admin privileges
 - Password Reset and Email Confirmation links are sent to the log file called LogFile.txt which is in the root directory
 - The Id property is set to 0 before passing the view model to the client when Id encryption is used for route parameters
