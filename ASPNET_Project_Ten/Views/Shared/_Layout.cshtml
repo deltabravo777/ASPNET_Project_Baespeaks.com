@@ -39,9 +39,7 @@
 
                         @if (signInManager.IsSignedIn(User))
                         {
-                            @if ( // true
-                      (await AuthorizationService.AuthorizeAsync(User, "ManagerLevelPolicy")).Succeeded //  User.HasClaim(c => c.Type == "Manager Claim")
-                      )
+                            @if ((await AuthorizationService.AuthorizeAsync(User, "ManagerLevelPolicy")).Succeeded)
                             {
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
