@@ -1,4 +1,4 @@
-﻿@inject SignInManager<ApplicationUser> signInManager
+@inject SignInManager<ApplicationUser> signInManager
 @inject IAuthorizationService AuthorizationService
 <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +40,7 @@
                         @if (signInManager.IsSignedIn(User))
                         {
                             @if ((await AuthorizationService.AuthorizeAsync(User, "ManagerLevelPolicy")).Succeeded)
-                            {
+                                {
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="bi bi-list-ul"></i> Articles
@@ -100,8 +100,7 @@
                                            asp-action="CreateEmployee"><i class="bi bi-person-plus"></i> Create Employee</a>
                                     </div>
                                 </li>
-                                @if (    // true)
-                                 (await AuthorizationService.AuthorizeAsync(User, "ExecutiveLevelPolicy")).Succeeded)
+                                @if ((await AuthorizationService.AuthorizeAsync(User, "ExecutiveLevelPolicy")).Succeeded)
                                 {
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -188,9 +187,8 @@
     </div>
 
     <footer class="footer mt-auto fixed-bottom bg-light">
-        <!-- fixed-bottom does not work as expected (?) since you need to scoll to see it -->
         <div class="container">
-            <span class="text-muted m-1">Place sticky footer content here.</span>
+            <span class="text-muted m-1">Place footer content here</span>
         </div>
     </footer>
 
