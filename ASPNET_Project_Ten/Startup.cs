@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using ASPNET_Project_Eleven.Models;
 using ASPNET_Project_Eleven.Security;
 using Microsoft.AspNetCore.Authorization;
@@ -95,8 +95,8 @@ namespace ASPNET_Project_Eleven
             });
 
             services.AddSingleton<IAuthorizationHandler, ManagerClaimHandler>();
-            services.AddScoped<IAuthorizationHandler, AdminClaimHandler>();
-            services.AddScoped<IAuthorizationHandler, ExecutiveClaimHandler>();
+            services.AddSingleton<IAuthorizationHandler, AdminClaimHandler>();
+            services.AddSingleton<IAuthorizationHandler, ExecutiveClaimHandler>();
             services.AddSingleton<DataProtectionPurposeStrings>();
 
             services.AddScoped<IDatabaseRepository, SQLDatabaseRepository>();
