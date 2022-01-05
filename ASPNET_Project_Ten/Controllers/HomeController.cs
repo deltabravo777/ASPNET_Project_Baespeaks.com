@@ -1,4 +1,4 @@
-﻿using ASPNET_Project_Eleven.Models;
+using ASPNET_Project_Eleven.Models;
 using ASPNET_Project_Eleven.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -18,7 +18,7 @@ using ASPNET_Project_Eleven.Security;
 namespace ASPNET_Project_Eleven.Controllers
 {
 
-    [AllowAnonymous]
+    [Authorize(Policy = "AdminLevelPolicy")]
     [Route("[controller]/[action]")]
     public class HomeController : Controller
     {
@@ -63,11 +63,13 @@ namespace ASPNET_Project_Eleven.Controllers
             return View();
         }
 
+        [AllowAnonymous]
         public IActionResult Privacy()
         {
             return View();
         }
 
+        [AllowAnonymous]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
@@ -198,7 +200,7 @@ namespace ASPNET_Project_Eleven.Controllers
         {
             int employeeId = Convert.ToInt32(protector.Unprotect(id));
             _databaseRepository.DeleteEmployee(employeeId);
-            return RedirectToAction("ListArticles");
+            return RedirectToAction("ListEmployees");
         }
 
         private string ProcessUploadedFile(EmployeeCreateViewModel model)
