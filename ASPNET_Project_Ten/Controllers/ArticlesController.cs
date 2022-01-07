@@ -1,4 +1,4 @@
-﻿using ASPNET_Project_Eleven.Models;
+using ASPNET_Project_Eleven.Models;
 using ASPNET_Project_Eleven.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -179,6 +179,7 @@ namespace ASPNET_Project_Eleven.Controllers
                 article.Year = model.Year;
                 article.Month = model.Month;
                 article.Day = model.Day;
+                article.Rank = model.Rank;
 
                 if (model.Photo != null)
                 {
