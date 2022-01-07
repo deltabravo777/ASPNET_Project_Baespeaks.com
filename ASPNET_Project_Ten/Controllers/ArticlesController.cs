@@ -194,7 +194,7 @@ namespace ASPNET_Project_Eleven.Controllers
 
                 Article updatedEmployee = _databaseRepository.UpdateArticle(article);
 
-                return RedirectToAction("ListArticles");
+                return RedirectToAction("ListEditArticles");
             }
 
             return View(model);
