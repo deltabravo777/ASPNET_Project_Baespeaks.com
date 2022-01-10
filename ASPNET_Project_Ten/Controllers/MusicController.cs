@@ -1,4 +1,4 @@
-﻿using ASPNET_Project_Eleven.Models;
+using ASPNET_Project_Eleven.Models;
 using ASPNET_Project_Eleven.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -163,7 +163,7 @@ namespace ASPNET_Project_Eleven.Controllers
 
                 Playlist updatedPlaylist = _databaseRepository.UpdatePlaylist(playlist);
 
-                return RedirectToAction("ListPlaylists");
+                return RedirectToAction("ListEditPlaylists");
             }
 
             return View(model);
