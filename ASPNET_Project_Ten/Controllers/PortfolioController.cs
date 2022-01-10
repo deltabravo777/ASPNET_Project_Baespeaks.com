@@ -1,4 +1,4 @@
-﻿using ASPNET_Project_Eleven.Models;
+using ASPNET_Project_Eleven.Models;
 using ASPNET_Project_Eleven.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -166,7 +166,7 @@ namespace ASPNET_Project_Eleven.Controllers
 
                 Blueprint updatedBlueprint = _databaseRepository.UpdateBlueprint(blueprint);
 
-                return RedirectToAction("ListBlueprints");
+                return RedirectToAction("ListEditBlueprints");
             }
 
             return View(model);
