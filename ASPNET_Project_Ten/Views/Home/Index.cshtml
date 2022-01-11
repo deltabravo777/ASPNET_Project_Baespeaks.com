@@ -1,4 +1,4 @@
-﻿@model string
+@model string
 
 @{
     ViewBag.Title = "Baespeaks";
@@ -51,55 +51,18 @@
     <h5>@date.ToString("MMMM dd")</h5>
 </div>
 <div class="container">
-    <div class="text-center">
-        <h1 class="display-4">Welcome 1/7</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        <br /><br /><br />
-        <br /><br /><br />
-        <br /><br /><br /><br />
-    </div>
-    <div class="text-center">
-        <h1 class="display-4">Welcome 2/7</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        <br /><br /><br />
-        <br /><br /><br />
-        <br /><br /><br /><br />
-    </div>
-    <div class="text-center">
-        <h1 class="display-4">Welcome 3/7</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        <br /><br /><br />
-        <br /><br /><br />
-        <br /><br /><br /><br />
-    </div>
-    <div class="text-center">
-        <h1 class="display-4">Welcome 4/7</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        <br /><br /><br />
-        <br /><br /><br />
-        <br /><br /><br /><br />
-    </div>
-    <div class="text-center">
-        <h1 class="display-4">Welcome 5/7</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        <br /><br /><br />
-        <br /><br /><br />
-        <br /><br /><br /><br />
-    </div>
-    <div class="text-center">
-        <h1 class="display-4">Welcome 6/7</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        <br /><br /><br />
-        <br /><br /><br />
-        <br /><br /><br /><br />
-    </div>
-    <div class="text-center">
-        <h1 class="display-4">Welcome 7/7</h1>
-        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        <br /><br /><br />
-        <br /><br /><br />
-        <br /><br /><br /><br />
-    </div>
+    
+    @for (int i = 1; i <= 7; i++)
+    {
+        <div class="text-center">
+            <h1 class="display-4">Welcome @i/7</h1>
+            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+            <br /><br /><br />
+            <br /><br /><br />
+            <br /><br /><br /><br />
+        </div>
+    }
+    
 </div>
 
 @section scripts{
