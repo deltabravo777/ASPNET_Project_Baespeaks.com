@@ -31,36 +31,26 @@ namespace ASPNET_Project_Eleven
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var connection = Configuration[
-                "Production:SqliteConnectionStringSQLite"
-                ];
+            var connection = Configuration["Production:SqliteConnectionStringSQLite"];
 
             string secondConnectionString = System.Environment.CurrentDirectory.ToString();
             secondConnectionString = Path.Combine(secondConnectionString, "MyDatabase.db;Foreign Keys=False");
             secondConnectionString = "Data Source=file:///" + secondConnectionString;
-
             services.AddDbContextPool<AppDBContext>(options => options.UseSqlite(secondConnectionString));
-
-            services.AddControllers(options => options.SuppressAsyncSuffixInActionNames = false);
-
-            // use for newer ASP.NET Core builds
+            
             services.AddMvc(options => {
                 options.EnableEndpointRouting = false;
                 options.SuppressAsyncSuffixInActionNames = false;
-                
                 var policy = new AuthorizationPolicyBuilder()
                                 .RequireAuthenticatedUser()
                                 .Build();
                 options.Filters.Add(new AuthorizeFilter(policy));
-
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
             }).AddXmlSerializerFormatters();
-
             services.ConfigureApplicationCookie(options =>
             {
                 options.AccessDeniedPath = new PathString("/Administration/AccessDenied"); ;
             });
-
 
             services.AddIdentity<ApplicationUser, IdentityRole>(options => {
                 options.Password.RequiredLength = 3;
@@ -71,29 +61,20 @@ namespace ASPNET_Project_Eleven
             })
             .AddEntityFrameworkStores<AppDBContext>()
             .AddDefaultTokenProviders();
-
             services.Configure<DataProtectionTokenProviderOptions>(options => options.TokenLifespan = TimeSpan.FromHours(1));
-
-            services.AddControllersWithViews();
-
+            
             services.AddAuthorization(options => {
-
                 options.AddPolicy("ManagerLevelPolicy",
                     policy => policy.AddRequirements(new ManagerClaimsRequirement()
                 ));
-
                 options.AddPolicy("AdminLevelPolicy",
                     policy => policy.AddRequirements(new AdminClaimsRequirement()
                 ));
-
                 options.AddPolicy("ExecutiveLevelPolicy",
                     policy => policy.AddRequirements(new ExecutiveClaimsRequirement()
                 ));
-
                 options.InvokeHandlersAfterFailure = true;
-
             });
-
             services.AddSingleton<IAuthorizationHandler, ManagerClaimHandler>();
             services.AddSingleton<IAuthorizationHandler, AdminClaimHandler>();
             services.AddSingleton<IAuthorizationHandler, ExecutiveClaimHandler>();
