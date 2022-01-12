@@ -6,8 +6,8 @@ namespace ASPNET_Project_Eleven.Models
 {
     public class Article
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        // [Key]
+        // [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [NotMapped]
         public string EncryptedId { get; set; }
