@@ -6,8 +6,8 @@ namespace ASPNET_Project_Eleven.Models
 {
     public class Blueprint
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        // [Key]
+        // [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
         public string Title { get; set; }
         public string BlueprintBody { get; set; }
