@@ -10,3 +10,7 @@ A website I created with ASP.NET Core using the content from my blog baespeaks.c
 - "ASPNETCORE_ENVIRONMENT" is set to "Production"
 - Within the site there is a Portfolio section which has a handful of console applications made with C#, which can also be found at baespeaks.com/portfolio
 - The name of the project is ASPNET_Project_Eleven though the folder name is ASPNET_Project_Ten. The code is executable though renaming the folder may cause it to not work
+
+Known Issues:
+- The type Blueprint under Models has Year, Month, and Date, though they are not used
+- If you try and make an article with a date combination that is invalid, the article will be created though the article cannot be viewed as the DateTime construction with invalid parameters will throw an exception
