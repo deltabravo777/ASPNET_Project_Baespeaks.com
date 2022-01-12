@@ -63,9 +63,15 @@ namespace ASPNET_Project_Eleven.Controllers
         [ActionName("DetailsArticle")]
         public ViewResult DetailsArticle(string id)
         {
-            #region fix bug
+            
             int decryptedId = 0;
             Article article = null;
+
+            decryptedId = Convert.ToInt32(protector.Unprotect(id));
+            article = _databaseRepository.GetArticle(decryptedId);
+            #region bug fixed
+            /*
+            throw new Exception("huh");
             if (id.Length > 10)
             {
                 decryptedId = Convert.ToInt32(protector.Unprotect(id));
@@ -73,8 +79,9 @@ namespace ASPNET_Project_Eleven.Controllers
             }
             else
             {
-                article = _databaseRepository.GetArticle(Convert.ToInt32(id));
+                article = _databaseRepository.GetArticle(Int32.Parse(id));
             }
+            */
             // article.ArticleBody = article.ArticleBody.Replace(System.Environment.NewLine, "<br />");
             #endregion
 
